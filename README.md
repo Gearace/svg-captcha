@@ -45,7 +45,7 @@ exports.eggSvgCaptcha = {
 ```js
 // {app_root}/config/config.default.js
 exports.svgCaptcha = {
-  config: {
+  options: {
     // 验证码长度
     size: 4,
     // 验证码字符中排除 0o1i
@@ -56,8 +56,6 @@ exports.svgCaptcha = {
     color: true,
     // 验证码图片背景颜色
     background: '#cc9966',
-  },
-  options: {
     width: 80,
     height: 32,
     fontSize: 32,

@@ -7,7 +7,7 @@
  */
 exports = {
   svgCaptcha: {
-    config: {
+    options: {
       // 验证码长度
       size: 6,
       // 验证码字符中排除 0o1i
@@ -15,8 +15,6 @@ exports = {
       // 干扰线条的数量
       noise: 2,
       // 验证码的字符是否有颜色，默认没有，如果设定了背景，则默认有
-    },
-    options: {
       width: 80,
       height: 32,
       fontSize: 32,
