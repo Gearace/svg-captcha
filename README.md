@@ -44,7 +44,7 @@ exports.eggSvgCaptcha = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.eggSvgCaptcha = {
+exports.svgCaptcha = {
   config: {
     // 验证码长度
     size: 4,

@@ -1,9 +1,9 @@
 {
   "name": "egg-svg-captcha",
-  "version": "1.0.2",
-  "description": "egg svg-captcha plugin",
+  "version": "1.0.3",
+  "description": "egg captcha plugin base on produck/svg-captcha",
   "eggPlugin": {
-    "name": "eggSvgCaptcha"
+    "name": "svgcaptcha"
   },
   "keywords": [
     "egg",
@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onweer/svg-captcha.git"
+    "url": "git+https://github.com/Gearace/svg-captcha.git"
   },
   "bugs": {
-    "url": "https://github.com/onweer/svg-captcha/issues"
+    "url": "https://github.com/Gearace/svg-captcha/issues"
   },
-  "homepage": "https://github.com/onweer/svg-captcha#readme",
-  "author": "onweer",
+  "homepage": "https://github.com/Gearace/svg-captcha#readme",
+  "author": "Gearace",
   "license": "MIT"
 }
